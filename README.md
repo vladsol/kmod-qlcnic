@@ -1,7 +1,7 @@
 # kmod-qlcnic
 # Qlogic qlcnic 1/10Gb Converged Ethernet NIC Driver for RHEL8/RHEL9 and derivatives (CentOS, AlmaLinux, Rocky, etc)
 
-Version: 3.2.25.1
+Version: 5.3.66
 
 ### Installation using dkms:
 
@@ -17,11 +17,11 @@ Version: 3.2.25.1
 
 `cd /usr/src`
 
-`git clone https://github.com/vladsol/kmod-bfa bfa-3.2.25.1`
+`git clone https://github.com/vladsol/kmod-qlcnic qlcnic-5.3.66`
 
 - Build, install module:
 
-`dkms add bfa/3.2.25.1`
+`dkms add qlcnic/5.3.66`
 
 `dkms autoinstall`
 
